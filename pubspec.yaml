@@ -1,13 +1,16 @@
-name: my_flutter_app
-description: A new Flutter project.
+name: code_editor_app
+description: A code editor app for mobile
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  http: ^1.1.0
+  flutter_code_editor: ^0.3.0
+  highlight: ^0.7.0
 
 flutter:
   uses-material-design: true
